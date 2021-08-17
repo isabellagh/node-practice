@@ -1,5 +1,5 @@
-const fs = require("fs")
 
-fs.writeFileSync("notes.txt", "hello")
+require('./utils.js')
+const name = "Isabella"
 
-fs.appendFileSync("notes.txt", ", Im writig the append method")
+console.log(name);
