@@ -1,5 +1,5 @@
+const firstName = require('./utils.js')
 
-require('./utils.js')
-const name = "Isabella"
 
-console.log(name);
+
+console.log(firstName);
