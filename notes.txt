@@ -1,1 +1,5 @@
-hello, Im writig the append method
+module.exports
+
+exported a function from file A and used it in file B
+
+console.log(validator.isURL('https://uhdsuhd.com'));

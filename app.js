@@ -1,5 +1,9 @@
-const addd = require('./utils.js')
+const chalk = require('chalk')
+const getNotes = require('./notes.js')
 
-const sum = addd(4, -2)
+const msg = getNotes()
 
-console.log(sum);
+console.log(msg);
+
+const greenmsg = chalk.green.bgRed.bold("success")
+console.log(greenmsg);
